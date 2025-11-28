@@ -1,0 +1,25 @@
+# Core LangChain e LangGraph
+langchain
+langgraph
+
+# Pacotes modulares: Cruciais!
+langchain-community # Contém PyPDFLoader, etc.
+langchain-chroma    # Contém a integração com o ChromaDB
+langchain-google-genai # Contém GoogleGenerativeAIEmbeddings
+
+# Modelos LLM e Embeddings (Exemplo usando Google Generative AI e OpenAI)
+# Escolha o provider da sua LLM e Embeddings. Vou usar 'google-genai' como exemplo.
+google-genai
+langchain-google-genai
+
+# Banco de Dados Vetorial (usarei ChromaDB por ser leve e fácil de iniciar)
+chromadb
+langchain-chroma
+
+# Processamento de Documentos
+pypdf # Para ler PDFs (se seus protocolos estiverem neste formato)
+langsmith
+
+# Observabilidade (MUito importante para os requisitos de LOGGING e METADADOS)
+langsmith
+python-dotenv

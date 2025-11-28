@@ -1,0 +1,14 @@
+# Arquivos de ambiente virtual e cache
+venv/
+__pycache__/
+*.pyc
+
+# Pasta do banco de dados vetorial (pode ser grande)
+chroma_db/
+chroma.sqlite3
+
+# Modelos LLM baixados
+models/
+
+# Arquivos de configuração/segredo
+.env
